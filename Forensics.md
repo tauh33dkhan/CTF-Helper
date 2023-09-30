@@ -25,6 +25,12 @@ https://www.youtube.com/watch?v=3xeU8U6kUhw&t=156s
 
 # WORD Document
 
-Analyze traffic and dump macro content
+Analyze traffic going from word document after opening it and dump macro content
 https://www.youtube.com/watch?v=4UzHNuhTJbs&list=PLUrAjkLbvTpLJGPdxueL5uRvUVwmr4SnY
 https://0xv1n.github.io/posts/emo/
+
+* Open document file online
+> https://any.run
+
+# Decrypt DES
+https://devtoolcafe.com/tools/des
