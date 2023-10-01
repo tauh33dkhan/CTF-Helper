@@ -23,6 +23,10 @@ https://www.youtube.com/watch?v=3xeU8U6kUhw&t=156s
 * Dump truecrypt passphrase
 > volatility -f TrueSecrets.raw --profile=Win7SP1x86_23418 truecryptpassphrase
 
+* Get command line history
+> volatility -f TrueSecrets.raw --profile=Win7SP1x86_23418 cmdscan
+> volatility -f TrueSecrets.raw --profile=Win7SP1x86_23418 consoles
+
 # WORD Document
 
 Analyze traffic going from word document after opening it and dump macro content
@@ -34,3 +38,22 @@ https://0xv1n.github.io/posts/emo/
 
 # Decrypt DES
 https://devtoolcafe.com/tools/des
+
+# Tool to extract passwords from firefox profiles
+
+**Firefox Decrypt**
+
+```
+firefox_decrypt Firefox
+```
+
+**RDP BMC FILE**
+use bmc-tool to extract bitmap from the cache file
+```
+bmc-tools.py -s cache.bin -d bmps
+```
+
+Combine all bitmap tiles
+```
+bmc-toools -s cache.bin -d bmps -b
+```
