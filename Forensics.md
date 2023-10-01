@@ -57,3 +57,10 @@ Combine all bitmap tiles
 ```
 bmc-toools -s cache.bin -d bmps -b
 ```
+
+Registry files:
+signature: reg
+
+Use registry viewer to view the registry
+Look at the startup program
+software->microsoft->windows->versions->Run
