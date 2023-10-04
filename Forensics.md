@@ -64,3 +64,8 @@ signature: reg
 Use registry viewer to view the registry
 Look at the startup program
 software->microsoft->windows->versions->Run
+
+
+# event chainsaw
+https://github.com/jon-brandy/hackthebox/blob/main/Categories/Forensics/Packet%20Cyclone/README.md
+.\chainsaw\chainsaw.exe hunt .\Logs\ -s .\sigma_rules\ --mapping .\chainsaw\mappings\sigma-event-logs-all.yml -o chainsaw-result.txt
