@@ -79,3 +79,9 @@ pycdc program.pyc
 
 WMI
 https://github.com/davidpany/WMI_Forensics
+
+
+# Analyze (lsas) memory dump
+```
+pypykatz lsa minidump 3858793632.pmd
+```
