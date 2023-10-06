@@ -76,3 +76,6 @@ https://github.com/jon-brandy/hackthebox/blob/main/Categories/Forensics/Packet%2
 pyinstxtractor.py binaryname
 pycdc program.pyc
 ```
+
+WMI
+https://github.com/davidpany/WMI_Forensics
