@@ -85,3 +85,14 @@ https://github.com/davidpany/WMI_Forensics
 ```
 pypykatz lsa minidump 3858793632.pmd
 ```
+
+Decrypting SMB3 traffic
+https://medium.com/maverislabs/decrypting-smb3-traffic-with-just-a-pcap-absolutely-maybe-712ed23ff6a2
+
+
+# Docker
+* Retrieve a file which has been deleted while builiding the image
+https://unix.stackexchange.com/questions/499713/how-to-retrieve-a-file-that-has-been-added-then-removed-in-a-docker-image
+```
+for i in $(sudo ls /var/lib/docker/overlay2/); do sudo ls /var/lib/docker/overlay2/$i/diff/usr/share/lib/librs.so; done
+```
